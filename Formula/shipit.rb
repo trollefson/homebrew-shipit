@@ -1,24 +1,24 @@
 class Shipit < Formula
   desc "A CLI for managing git releases"
   homepage "https://github.com/trollefson/shipit"
-  version "0.5.0"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/trollefson/shipit/releases/download/v0.5.0/shipit-aarch64-apple-darwin"
-      sha256 "f650cdb3a69fec7d44db57ae30f5b637a903d2ef7995fa047880c568a514abb2"
+      url "https://github.com/trollefson/shipit/releases/download/v1.0.0/shipit-aarch64-apple-darwin"
+      sha256 "769c875c7da14369c161ffa31bdcc1536bea6edaca20ade40a2afcda197fc353"
     end
     on_intel do
-      url "https://github.com/trollefson/shipit/releases/download/v0.5.0/shipit-x86_64-apple-darwin"
-      sha256 "945f0b4e55b74c8238e28962a0ca81a6a59caaa7245166c5cb8ef882262a9aff"
+      url "https://github.com/trollefson/shipit/releases/download/v1.0.0/shipit-x86_64-apple-darwin"
+      sha256 "5665714310bc0da2126631090e90a686595e884ee2da1c5ac8893683c5f3f7a7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/trollefson/shipit/releases/download/v0.5.0/shipit-x86_64-unknown-linux-gnu"
-      sha256 "62a789b400ae325aaccb76016ba11424e964148e2007ed894dda3a48a4c28f97"
+      url "https://github.com/trollefson/shipit/releases/download/v1.0.0/shipit-x86_64-unknown-linux-gnu"
+      sha256 "b73059501ef2d5603afaf2d993e509308cbe84005ec17899be0a9bf00c3bc966"
     end
   end
 
