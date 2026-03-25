@@ -7,18 +7,18 @@ class Shipit < Formula
   on_macos do
     on_arm do
       url "https://github.com/trollefson/shipit/releases/download/v1.0.2/shipit-aarch64-apple-darwin"
-      sha256 "a789f6b5046e4d33b2b33c39f9e59f50e05da50dbc49dff4ae5c8b1bbfd3c097"
+      sha256 "b5fc0a48dbb50caa0846058c3543f4ebb04df485b02adc177ce131c848f2c3f3"
     end
     on_intel do
       url "https://github.com/trollefson/shipit/releases/download/v1.0.2/shipit-x86_64-apple-darwin"
-      sha256 "f09df3567cf40ae3781bf7210c6f4eae45eae1924ce6a16fcf1c54712e783b97"
+      sha256 "7c1e1971c49d1d6ecf4f9377bfa49eeb5a03bbc528b0de691cf28f8f5417b7bb"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/trollefson/shipit/releases/download/v1.0.2/shipit-x86_64-unknown-linux-gnu"
-      sha256 "496ae9f929737666aad00f11c07b0c2129d9ec3da2a87278e85e74348fc39f25"
+      sha256 "7b367f32e0fb80d4ce9c277f79ae82a497cf7d7e1c323eb988e15910f0503882"
     end
   end
 
